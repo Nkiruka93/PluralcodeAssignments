@@ -1,0 +1,72 @@
+* {
+  background-color: whitesmoke;
+  font-family: Arial, Helvetica, sans-serif;
+  box-sizing: border-box;
+}
+img {
+  margin-bottom: -15px;
+  margin-left: 0px;
+}
+p {
+  margin-top: 0px;
+}
+.container {
+  display: flex;
+  align-items: center;
+  margin-top: 80px;
+  padding: 0, 15px;
+}
+.right {
+  margin-left: 50px;
+  background-color: #f5f5f5;
+}
+.right form {
+  /* background-color: white; */
+  margin-bottom: 10px;
+  text-align: center;
+  width: 300px;
+  box-shadow: 2px, 2px, 10px, rgba(0, 0, 0, 0.1);
+}
+.right form input {
+  background-color: white;
+  margin-bottom: 10px;
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 3px;
+  outline: none;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+}
+.right button {
+  width: 100%;
+  padding: 10px;
+  background-color: #4475d8;
+  color: white;
+  margin-bottom: 10px;
+}
+.forgot {
+  font-size: 12px;
+  color: #234281;
+  margin-bottom: 10px;
+}
+.line {
+  margin-bottom: 20px;
+  border-top: rgba(0, 0, 0, 0.2);
+}
+
+.create {
+  margin-top: -20px;
+  padding: 10px;
+  background-color: green;
+  font-size: 12px;
+  color: white;
+  text-decoration: none;
+  margin-bottom: 20px;
+  cursor: pointer;
+  border-radius: 3px;
+}
+.right p {
+  text-align: center;
+  margin-top: 30px;
+  font-size: 12px;
+}
