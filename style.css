@@ -1,0 +1,85 @@
+body {
+  font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu,
+    sans-serif;
+  background: rgba(0, 0, 0, 0.5) url(netflix-image.png);
+  background-blend-mode: darken;
+}
+
+.logo {
+  width: 12%;
+}
+.sign {
+  padding: 8px 15px;
+  color: white;
+  background-color: #e50914;
+  text-decoration: none;
+  cursor: pointer;
+  display: inline-block;
+}
+.nav {
+  padding-top: 5px;
+  padding-left: 2vw;
+  padding-right: 5vw;
+  display: flex;
+  height: 10vh;
+  align-items: center;
+  justify-content: space-between;
+}
+select {
+  margin-left: 70%;
+  padding: 8px;
+}
+.content {
+  color: #fff;
+  position: absolute;
+  margin-top: 8%;
+  margin-left: 30%;
+}
+.content h1 {
+  font-size: 45px;
+  margin-bottom: 4px;
+  padding-bottom: 2px;
+}
+
+.content .Starts {
+  font-weight: 400;
+  font-size: 1rem;
+  padding-left: 80px;
+  padding-right: 20px;
+  color: #fff;
+}
+.mail {
+  width: 100%;
+  height: fit-content;
+  align-items: center;
+  background-color: #150c2b;
+  display: flex;
+  justify-content: space-between;
+}
+.mail input {
+  outline: none;
+  border: none;
+  padding: 12px 20px;
+  font-size: 30px;
+  background-color: #150c2b;
+  font-size: 1em;
+  color: #fff;
+}
+.mail a {
+  padding: 18px 12px;
+  background-color: #e50914;
+  color: #fff;
+  text-decoration: none;
+  height: fit-content;
+}
+@media only screen and (max-width: 600px) {
+  .nav {
+    padding-top: 5px;
+    padding-left: 1vw;
+    padding-right: 2vw;
+    display: block;
+    height: 10vh;
+    align-items: center;
+    justify-content: space-between;
+  }
+}
