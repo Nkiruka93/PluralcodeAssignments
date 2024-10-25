@@ -1,0 +1,107 @@
+/* universal selector */
+* {
+  margin: 0px;
+  padding: 0px;
+}
+body {
+  background-color: antiquewhite;
+}
+.section {
+  background-color: crimson;
+  display: flex;
+  padding: 10px 100px;
+  align-items: center;
+  justify-content: space-between;
+}
+nav ul {
+  display: flex;
+  list-style-type: none;
+  color: black;
+}
+
+nav ul li {
+  margin-left: 10px;
+}
+.blogsmain {
+  display: flex;
+}
+main {
+  width: 65%;
+  margin-right: 20px;
+  margin-top: 20px;
+}
+main h1 {
+  margin-bottom: 20px;
+  color: green;
+}
+main article {
+  background-color: burlywood;
+  padding: 10px;
+  margin-bottom: 20px;
+  color: darkslateblue;
+}
+h3 {
+  color: midnightblue;
+}
+main article p {
+  margin: 10px 0px;
+  margin-bottom: 20px;
+}
+main article a {
+  background-color: brown;
+  color: white;
+  font-family: sans-serif;
+  padding: 5px;
+}
+aside {
+  width: 35%;
+  margin-top: 20px;
+}
+
+aside h3 {
+  padding: 10px;
+  margin-bottom: 10px;
+  color: blue;
+}
+aside form input,
+aside form textarea {
+  outline: none;
+  margin-bottom: 10px;
+  width: 100%;
+}
+aside form button {
+  width: 100%;
+  cursor: pointer;
+  background-color: green;
+  color: white;
+  padding: 10px;
+  margin-bottom: 5px;
+  font-family: sans-serif;
+}
+aside ul li {
+  padding: 5px 0px;
+  color: darkslateblue;
+  border-bottom: 1px;
+}
+
+aside ul {
+  list-style-type: none;
+  margin-bottom: 2px;
+  padding: 10px;
+  color: darkslateblue;
+}
+aside h2 {
+  color: blue;
+  margin-bottom: 5px;
+}
+aside form {
+  color: darkred;
+}
+footer {
+  background-color: grey;
+  padding: 10px;
+  align-items: center;
+  color: darkred;
+  border-top: none;
+  margin-top: none;
+}
